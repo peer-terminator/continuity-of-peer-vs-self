@@ -1,0 +1,31 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# API keys — local only, never commit. See .env.example.
+.env
+
+# Run output — data, not source. Every collection call appends here.
+runs.jsonl
+*.jsonl
+
+# Scratch. Nothing under tmp/ is part of the release.
+tmp/
+
+# The sprint report and its build products are submitted separately and are
+# deliberately not part of this repository.
+report/
+
+# Local reading material, notes and tool configuration.
+papers/
+context/
+CLAUDE.md
+.claude/
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
